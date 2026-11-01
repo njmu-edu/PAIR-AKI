@@ -49,9 +49,11 @@ The screenshot is from a synthetic-input engineering demonstration. It contains 
 
 ## Demo Video
 
-**The demonstration video is awaiting the team's upload.** This section will contain the project video and an optional backup link when available.
+[**Project demonstration video · MP4 · 4 min 48 s**](https://github.com/njmu-edu/PAIR-AKI/releases/download/demo-2026-11-01/PAIR-AKI-demo.mp4) · [Video release page](https://github.com/njmu-edu/PAIR-AKI/releases/tag/demo-2026-11-01)
 
-The demonstration covers case/time-point selection, prediction-only and retrieval-only tasks, a combined assessment, and the execution/evidence view. No placeholder URL is presented as a working video.
+The team-provided original recording presents the project and demonstrates the workbench, including prediction, comparable-case retrieval, and execution evidence. The public quick-start remains a separately labelled synthetic-fixture workflow.
+
+The video is hosted as a release attachment, outside the source history. Model weights and datasets are not included.
 
 ## Architecture
 
