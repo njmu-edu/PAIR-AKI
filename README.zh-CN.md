@@ -49,11 +49,16 @@
 
 ## 视频介绍
 
-[**项目演示视频 · MP4 · 约4分48秒**](https://github.com/njmu-edu/PAIR-AKI/releases/download/demo-2026-11-01/PAIR-AKI-demo.mp4) · [视频附件页面](https://github.com/njmu-edu/PAIR-AKI/releases/tag/demo-2026-11-01)
+[**原画质演示视频 · 1080p · 346.73 MB**](https://github.com/njmu-edu/PAIR-AKI/releases/download/demo-2026-11-01/PAIR-AKI-demo-original-1080p.mp4) · [两个视频版本](https://github.com/njmu-edu/PAIR-AKI/releases/tag/demo-2026-11-01)
 
-团队提供的演示原片包含项目介绍和工作台操作，展示预测、可比病例检索及执行证据。公开快速开始仍采用单独标记的合成样例流程。
+| 版本 | 文件 | 文件大小 | 视频编码 | 时长 |
+| --- | --- | --- | --- | --- |
+| **原画质版（主推荐）** | [PAIR-AKI-demo-original-1080p.mp4](https://github.com/njmu-edu/PAIR-AKI/releases/download/demo-2026-11-01/PAIR-AKI-demo-original-1080p.mp4) | **346.73 MB / 330.67 MiB**（346,731,030字节） | 1920 × 1080，HEVC/H.265 | 约4分48秒 |
+| 压缩版（保留备用） | [PAIR-AKI-demo.mp4](https://github.com/njmu-edu/PAIR-AKI/releases/download/demo-2026-11-01/PAIR-AKI-demo.mp4) | **24.52 MB / 23.39 MiB**（24,523,785字节） | 960 × 544，H.264 | 约4分48秒 |
 
-视频存放在Release附件中，不进入源码历史；附件不包含模型权重或数据集文件。
+主入口采用原画质版，此前的压缩视频、原链接和已有提交记录全部保留。浏览器不支持HEVC播放时，可下载原画质版或选择更小的H.264压缩版。MB按1,000,000字节计算，MiB按1,048,576字节计算。
+
+团队提供的录像包含项目介绍与工作台操作，展示预测、可比病例检索及执行证据。公开快速开始仍采用单独标记的合成样例流程。两个视频均为Release附件，不进入源码历史，也不包含模型权重或数据集文件。
 
 ## 架构介绍
 

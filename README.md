@@ -49,11 +49,16 @@ The screenshot is from a synthetic-input engineering demonstration. It contains 
 
 ## Demo Video
 
-[**Project demonstration video · MP4 · 4 min 48 s**](https://github.com/njmu-edu/PAIR-AKI/releases/download/demo-2026-11-01/PAIR-AKI-demo.mp4) · [Video release page](https://github.com/njmu-edu/PAIR-AKI/releases/tag/demo-2026-11-01)
+[**Original-quality demo · 1080p · 346.73 MB**](https://github.com/njmu-edu/PAIR-AKI/releases/download/demo-2026-11-01/PAIR-AKI-demo-original-1080p.mp4) · [Both video versions](https://github.com/njmu-edu/PAIR-AKI/releases/tag/demo-2026-11-01)
 
-The team-provided original recording presents the project and demonstrates the workbench, including prediction, comparable-case retrieval, and execution evidence. The public quick-start remains a separately labelled synthetic-fixture workflow.
+| Version | File | Size | Video encoding | Duration |
+| --- | --- | --- | --- | --- |
+| **Original quality (primary)** | [PAIR-AKI-demo-original-1080p.mp4](https://github.com/njmu-edu/PAIR-AKI/releases/download/demo-2026-11-01/PAIR-AKI-demo-original-1080p.mp4) | **346.73 MB / 330.67 MiB** (346,731,030 bytes) | 1920 × 1080, HEVC/H.265 | About 4 min 48 s |
+| Compressed (retained alternative) | [PAIR-AKI-demo.mp4](https://github.com/njmu-edu/PAIR-AKI/releases/download/demo-2026-11-01/PAIR-AKI-demo.mp4) | **24.52 MB / 23.39 MiB** (24,523,785 bytes) | 960 × 544, H.264 | About 4 min 48 s |
 
-The video is hosted as a release attachment, outside the source history. Model weights and datasets are not included.
+The original-quality version is the primary video. The earlier compressed video, its URL, and the existing commits remain available. If your browser cannot play HEVC, download the original or use the smaller H.264 version. MB uses 1,000,000 bytes; MiB uses 1,048,576 bytes.
+
+The team-provided recording presents the project and demonstrates prediction, comparable-case retrieval, and execution evidence. The public quick-start remains a separately labelled synthetic-fixture workflow. Both videos are release attachments, outside the source history; model weights and dataset files are not included.
 
 ## Architecture
 
