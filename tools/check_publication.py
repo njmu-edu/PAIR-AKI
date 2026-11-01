@@ -29,8 +29,6 @@ def check(name, raw):
         if len(raw)>2_000_000:raise ValueError('Oversized image')
         return
     text=raw.decode('utf8')
-    # Scanner definitions are not application data or credentials.
-    if name=='tools/check_publication.py':return
     for match in re.finditer(r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b', text):
         try:
             address = ipaddress.ip_address(match.group())
