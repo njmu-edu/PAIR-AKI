@@ -1,0 +1,10 @@
+PAIR-AKI
+Copyright 2026 PAIR-AKI contributors.
+
+The application and the deployment adapter are original project code, released
+under Apache-2.0. Agnes Harness is an independently maintained dependency; its
+source is fetched separately at the pinned revision. See THIRD_PARTY.md and
+third_party/AGNES_LICENSE and third_party/AGNES_NOTICE.
+
+The project uses Qwen models through optional model endpoints. Model weights,
+private adapters, patient datasets and their licenses are not distributed here.

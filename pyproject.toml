@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pair-aki"
+version = "0.1.0"
+description = "Auditable pediatric AKI research agent with binary prediction and comparable-case retrieval"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+authors = [{name = "PAIR-AKI contributors"}]
+dependencies = []
+
+[project.scripts]
+pair-aki = "pair_aki.cli:main"
+pair-aki-server = "pair_aki.server:main"
+
+[tool.setuptools.packages.find]
+include = ["pair_aki*"]

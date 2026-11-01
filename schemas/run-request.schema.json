@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PAIR-AKI application run request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["goal", "case_ref", "snapshot_ref", "mode"],
+  "properties": {
+    "goal": {"type": "string", "minLength": 1, "maxLength": 4000},
+    "case_ref": {"type": "string", "minLength": 1, "maxLength": 200},
+    "snapshot_ref": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "mode": {"enum": ["autonomous", "general", "fixed"]}
+  }
+}

@@ -1,0 +1,30 @@
+# Local state and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite*
+*.log
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+# Private research material and agent configuration are not publication inputs
+AGENTS.md
+**/AGENTS.md
+docs/
+.codex/
+.claude/
+.codebuddy/
+data/
+models/
+checkpoints/
+outputs/
+*.pt
+*.safetensors
+.DS_Store

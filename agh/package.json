@@ -1,0 +1,8 @@
+{
+  "name": "pair-aki-agh-adapter",
+  "private": true,
+  "type": "module",
+  "scripts": {"build": "node build.mjs"},
+  "dependencies": {"@sinclair/typebox": "0.34.33"},
+  "devDependencies": {"esbuild": "0.25.12"}
+}
