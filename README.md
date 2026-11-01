@@ -18,7 +18,7 @@ Children's creatinine measurements must be interpreted against age, baseline val
 
 | Capability | Method | Business output |
 | --- | --- | --- |
-| **24-hour event prediction** | A dedicated Qwen3.5-4B decision model, `M_P`, selects between native candidates `0` and `1` | An integer `label: 0 | 1`, with model and input receipts |
+| **24-hour event prediction** | A dedicated Qwen3.5-4B decision model, `M_P`, selects between native candidates `0` and `1` | An integer `label: 0 \| 1`, with model and input receipts |
 | **Comparable-case retrieval** | Structured recall of up to 12 distinct patients, followed by an independently trained Qwen3.5-4B pairwise reranker, `M_R` | Up to 3 distinct patients, similarities, important differences, and source references |
 | **Autonomous coordination** | A larger Qwen coordinator proposes short plans; the medical harness validates and executes them | A completed assessment, a supported partial result, a clarification, or an explicit failure |
 
